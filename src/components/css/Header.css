@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand:wght@300&display=swap');
+
+:root {
+  --gold: #C7A135;
+  --black: #000201;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background: var(--black);
+  font-family: sans-serif;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 6px var(--gold);
+  position: relative;
+  z-index: 2;
+}
+
+.header-top{
+  width: 90%;
+  height: 9vh;
+  background: var(--black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo-img {
+  width: 55px;
+  height: 55px;
+  background: url(/public/img/design/logo.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-top a{
+  color: var(--gold);
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.contacts-box{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone-numbers{
+  display: flex;
+  gap: 1.5rem;
+  font-size: 20px;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  
+}
+.phone-numbers a{
+  text-decoration: none;
+  color: var(--gold);
+}
+
+.contacts-box svg{
+  cursor: pointer;
+  color: var(--gold);
+  font-size: 30px;
+  transition: .3s;
+}
+
+.contacts-box svg:hover{
+  color: #836a26;
+}
+
+.header-bottom{
+  border-top: 1px solid var(--gold);
+  width: 90%;
+  height: 9vh;
+  background: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: row;
+}
+
+.header-bottom a{
+  text-decoration: none;
+  color: var(--gold);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: .3s;
+}
+
+.header-bottom a svg{
+  font-size: 30px;
+}
+
+.header-bottom a:hover{
+  color: #836a26;
+}
+

@@ -1,0 +1,133 @@
+:root {
+    --gold: #C7A135;
+    --black: #000201;
+}
+
+.swiper {
+    width: 60%;
+    height: 40vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--black) !important;
+}
+
+.swiper-slide {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1rem;
+}
+
+
+
+.yandex-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.yandex-content button {
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    border: 2px solid #FFE130;
+    background: #FFE130;
+    color: var(--black);
+    transition: .3s;
+    width: 100%;
+}
+
+.yandex-content button:hover {
+    border: 2px solid #FFE130;
+    background: var(--black);
+    color: #FFE130;
+}
+
+.yandex-content a {
+    width: 30%;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.yandex-content a button{
+    font-size: 17px;
+}
+
+.yandex-content button:hover a {
+    color: #FFE130 !important;
+
+}
+
+
+.yandex-content span {
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+    color: var(--black);
+}
+
+/* .yandex-content span p {
+    font-size: 25px;
+    color: #FFE130;
+} */
+
+.yandex-eats-color  {
+    color: #FFE130;
+    font-size: 22px;
+}
+
+.yandex-logo {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Yandex_Eats_icon.svg/1200px-Yandex_Eats_icon.svg.png);
+    width: 14%;
+    height: 18vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Slider-numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.slider-numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider-numbers a {
+    text-decoration: none;
+    color: #2AD348;
+    display: flex;
+    align-items: center;
+}
+
+.Slider-phone-img{
+    background: url(https://www.macworld.com/wp-content/uploads/2023/01/phone-icon.png);
+    width: 20%;
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

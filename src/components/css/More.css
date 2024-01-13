@@ -1,0 +1,132 @@
+:root {
+    --gold: #C7A135;
+    --black: #000201;
+  }
+  
+
+.More-popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.776);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    z-index: 3;
+}
+
+.More-main{
+    width: 50%;
+    border-radius: 15px;
+    height: auto;
+    background: var(--black);
+    color: var(--gold);
+    display: flex;
+    gap: 1rem;
+}
+
+.left-side{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.right-side{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right-side>div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+/* 
+.components{
+    word-wrap: break-word;
+} */
+
+.right-side > div:nth-child(1),
+.right-side > div:nth-last-child(1){
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-side > div:nth-child(1) div:nth-child(1),
+.right-side > div:nth-last-child(1) div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.right-side > div:nth-child(1) svg{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.right-side p:nth-child(1){
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+
+.More-bottom-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.More-quanity{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+
+.quantity-popup-box{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid var(--gold);
+}
+
+.quantity-popup-box button{
+    background: transparent;
+    border: none;
+    color: var(--gold);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.quantity-popup-box span{
+    text-align: center;
+}
+
+
+
+.More-bottom-icons{
+    display: flex;
+    width: 16%;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,41 @@
+.AllProducts-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.AllProducts-main{
+    width: 90%; 
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.AllProducts-items{
+    width: 80%; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.AllProducts-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+
+.AllProducts-main h2{
+    font-size: 30px;
+}
+
+.ALlProd-empty-place{
+    width: 100%;
+    height: 7vh;
+}
+

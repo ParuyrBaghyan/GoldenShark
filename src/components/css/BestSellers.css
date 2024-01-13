@@ -1,0 +1,36 @@
+:root {
+    --gold: #C7A135;
+    --black: #000201;
+  }
+
+.BestSellers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.BestSeller-main{
+    padding-top: 20px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.BestSeller-main h2{
+    text-align: center;
+}
+
+.BestSeller-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+

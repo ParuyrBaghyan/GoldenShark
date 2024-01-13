@@ -1,0 +1,26 @@
+:root {
+    --gold: #C7A135;
+    --black: #000201;
+  }
+
+
+.CartLike-container{
+    color: var(--gold);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.CartLike-container a {
+    font-size: 40px;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+}
+
+
+.CartLike-container a:hover{
+    color: #836a26;
+}
+

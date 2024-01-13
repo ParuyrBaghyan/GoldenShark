@@ -1,0 +1,26 @@
+.Like-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Like-main{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.Like-items{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
